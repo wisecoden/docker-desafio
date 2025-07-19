@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #ffedd5;
+  font-family: "Roboto", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+.description {
+  font-family: "Roboto serif", serif;
+  text-transform: uppercase;
+  color: #2d2c2a;
+}
+
+header {
+  padding: 32px 0;
+  text-align: center;
+}
+
+header,
+section {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+header h1 {
+  margin-bottom: 4px;
+  font-size: 28px;
+  line-height: 33px;
+}
+
+header h1 span {
+  color: #995000;
+}
+
+header h1 p {
+  font-size: 14px;
+  line-height: 16px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+section {
+  margin-bottom: 24px;
+}
+
+section h2 {
+  background-color: #fed7aa;
+  padding: 8px 16px;
+  text-align: center;
+
+  margin-bottom: 24px;
+  font-size: 18px;
+}
+
+ul li {
+  margin-bottom: 16px;
+  display: flex;
+}
+
+li .description {
+  max-width: 240px;
+}
+
+.description {
+  margin-bottom: 8px;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.details {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+}
+
+.price {
+  font-weight: bold;
+}
+
+#welcome-message {
+  display: none;
+}
+
+.welcome-box {
+  background: #fffbe6;
+  border: 1px solid #ffe58f;
+  padding: 20px 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  max-width: 400px;
+  margin: 30px auto 0;
+  position: relative;
+  font-family: "Roboto", Arial, sans-serif;
+}
+
+.welcome-title {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.welcome-text {
+  margin: 10px 0 0 0;
+}
+
+#welcome-close {
+  position: absolute;
+  top: 8px;
+  right: 12px;
+  background: none;
+  border: none;
+  font-size: 1.2em;
+  cursor: pointer;
+}

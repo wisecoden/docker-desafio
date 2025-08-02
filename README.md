@@ -15,7 +15,7 @@ Aplicação web simples de cardápio digital para uma cafeteria, desenvolvida co
 
 <p align="center">
 <img 
-    src="./src/img/preview.png"
+    src="./src/assets/images/preview.png"
     width="600"
 />
 </p>
